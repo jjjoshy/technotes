@@ -1,0 +1,53 @@
+site_name: Joshy's Cloud & DevOps Handbook
+site_url: https://jjjoshy.github.io/devops-handbook/
+repo_url: https://github.com
+repo_name: jjjoshy/technotes
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - tables
+
+nav:
+  - Home: index.md
+  - AWS Cloud:
+      - Account Setup & IAM: 01-aws/iam-account-setup.md
+  - Terraform & IaC:
+      - Terraform Basics: 02-terraform/terraform-basics.md
+  - Kubernetes:
+      - Core Concepts: 03-kubernetes/k8s-basics.md
+  - CI/CD & Automation:
+      - GitHub Actions: 04-cicd/github-actions.md
