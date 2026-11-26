@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://jjjoshy.github.io/technotes/</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://jjjoshy.github.io/technotes/01-aws/iam-account-setup/</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://jjjoshy.github.io/technotes/02-terraform/terraform-basics/</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://jjjoshy.github.io/technotes/03-kubernetes/k8s-basics/</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+    <url>
+         <loc>https://jjjoshy.github.io/technotes/04-cicd/github-actions/</loc>
+         <lastmod>2026-11-26</lastmod>
+    </url>
+</urlset>
